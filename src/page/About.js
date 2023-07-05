@@ -9,9 +9,9 @@ const About = () => {
 		window.addEventListener("resize", function (e) {
 			e.preventDefault();
 			if (window.innerWidth <= 425) {
-				setImgPath("./img/banner/about-banner-phone.png");
+				setImgPath("./Kasa/img/banner/about-banner-phone.png");
 			} else {
-				setImgPath("./img/banner/about-banner.png");
+				setImgPath("./Kasa/img/banner/about-banner.png");
 			}
 		});
 	}, [setImgPath]);

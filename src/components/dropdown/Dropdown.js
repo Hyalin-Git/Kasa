@@ -21,7 +21,7 @@ const Dropdown = ({ title, content }) => {
 					{/* Ajout de class dynamique, si open, ajoute "open" sinon "hide" */}
 					<img
 						className={"dropdown-img " + (isOpen ? "open" : "close")}
-						src="./img/collapse-close.svg"
+						src="./Kasa/img/collapse-close.svg"
 						alt="open"
 					/>
 				</div>

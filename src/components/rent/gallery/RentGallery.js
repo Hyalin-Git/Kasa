@@ -38,10 +38,10 @@ const RentGallery = ({ rent }) => {
 					(rent.pictures.length <= 1 ? "not-visible" : null)
 				}>
 				<button onClick={previousSlide}>
-					<img className="arrow" src="./img/left-arrow.svg" alt="arrow" />
+					<img className="arrow" src="./Kasa/img/left-arrow.svg" alt="arrow" />
 				</button>
 				<button onClick={nextSlide}>
-					<img className="arrow" src="./img/right-arrow.svg" alt="arrow" />
+					<img className="arrow" src="./Kasa/img/right-arrow.svg" alt="arrow" />
 				</button>
 			</div>
 

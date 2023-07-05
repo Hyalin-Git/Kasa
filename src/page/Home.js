@@ -7,7 +7,7 @@ import { logement } from "../data/logement";
 
 const Home = () => {
 	const [text, setText] = useState("");
-	const imgPath = "./img/banner/banner.png";
+	const imgPath = "./Kasa/img/banner/banner.png";
 	useEffect(() => {
 		setText(
 			<h1>
