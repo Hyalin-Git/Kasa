@@ -10,7 +10,7 @@ const Header = () => {
 						<NavLink to={"/Kasa"}>
 							<img
 								className="kasa-logo"
-								src="./kasa/img/logo/logo.svg"
+								src="./Kasa/img/logo/logo.svg"
 								alt="logo"
 							/>
 						</NavLink>
