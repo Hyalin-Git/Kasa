@@ -1,0 +1,131 @@
+.rent-container {
+	color: #ff6060;
+	margin-top: 20px;
+
+	.rent-information {
+		margin-top: -110px;
+		text-align: left;
+		@media screen and (max-width: 425px) {
+			margin-top: -70px;
+		}
+		.flex {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			.rent-info {
+				margin-right: 20px;
+				h1 {
+					margin-bottom: 0;
+					@media screen and (max-width: 480px) {
+						font-size: 1.5rem;
+					}
+				}
+
+				.location {
+					font-weight: bold;
+					margin-top: 8px;
+				}
+			}
+			.user-info-desktop {
+				@media screen and (max-width: 760px) {
+					display: none;
+				}
+				div {
+					margin-top: 20px;
+					margin-bottom: 10px;
+					display: flex;
+					gap: 10px;
+					p {
+						width: min-content;
+						font-weight: bold;
+					}
+					.user-pict {
+						width: 68px;
+						height: 68px;
+						border-radius: 50%;
+					}
+				}
+			}
+		}
+		.flex {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			// rating version desktop
+			.rating {
+				margin-top: 10px;
+				@media screen and (max-width: 760px) {
+					display: none;
+				}
+			}
+			.tags {
+				margin-left: -40px;
+
+				ul {
+					list-style-type: none;
+					display: flex;
+					gap: 10px;
+					flex-wrap: wrap;
+				}
+
+				li {
+					text-align: center;
+					color: white;
+					background-color: #ff6060;
+					padding: 5px;
+					border-radius: 12px;
+					min-width: 130px;
+					font-size: 0.9rem;
+				}
+			}
+		}
+		// user info mobile version
+		.user-info-mobile {
+			display: none;
+			@media screen and (max-width: 760px) {
+				display: flex;
+				justify-content: space-between;
+				flex-direction: row-reverse;
+
+				div {
+					display: flex;
+					gap: 10px;
+					p {
+						width: min-content;
+						font-weight: bold;
+					}
+					.user-pict {
+						width: 68px;
+						height: 68px;
+						border-radius: 50%;
+					}
+				}
+				.rating {
+					margin-top: 15px;
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+
+	.collapse-container {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		@media screen and (max-width: 1024px) {
+			margin-bottom: 20px;
+			flex-direction: column;
+			gap: 20px;
+			align-items: center;
+		}
+		.rents-dropdown {
+			max-width: 620px;
+			width: 100%;
+			@media screen and (max-width: 1290px) {
+				max-width: 480px;
+			}
+		}
+	}
+}

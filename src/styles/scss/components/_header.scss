@@ -1,0 +1,37 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	.kasa-logo {
+		@media screen and (max-width: 620px) {
+			width: 180px;
+		}
+	}
+	ul {
+		display: flex;
+		gap: 40px;
+		@media screen and (max-width: 620px) {
+			gap: 15px;
+			margin-top: 25px;
+		}
+	}
+	li {
+		list-style: none;
+		font-size: 1.6rem;
+		&:hover {
+			animation: liAnim forwards 150ms;
+		}
+		@media screen and (max-width: 620px) {
+			font-size: 1.1rem;
+			text-transform: uppercase;
+		}
+	}
+}
+@keyframes liAnim {
+	from {
+		scale: 1;
+	}
+	to {
+		scale: 1.1;
+	}
+}
