@@ -3,7 +3,7 @@ import AboutList from "../components/aboutList/AboutList";
 import Banner from "../components/banner/Banner";
 
 const About = () => {
-	const [imgPath, setImgPath] = useState("./img/banner/about-banner.png");
+	const [imgPath, setImgPath] = useState("./Kasa/img/banner/about-banner.png");
 	useEffect(() => {
 		// Change le path de l'image en fonction de la taille de l'écran
 		window.addEventListener("resize", function (e) {
