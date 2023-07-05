@@ -8,7 +8,11 @@ const Header = () => {
 				<div>
 					<div>
 						<NavLink to={"/Kasa"}>
-							<img className="kasa-logo" src="./img/logo/logo.svg" alt="logo" />
+							<img
+								className="kasa-logo"
+								src="./kasa/img/logo/logo.svg"
+								alt="logo"
+							/>
 						</NavLink>
 					</div>
 				</div>
