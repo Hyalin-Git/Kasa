@@ -11,7 +11,7 @@ const Router = () => {
 			<Route path="/Kasa" element={<Home />} />
 			<Route path="/Kasa/logement/:id" element={<Rent />} />
 			<Route path="/Kasa/about" element={<About />} />
-			<Route path="*" element={<NotFound />} />
+			<Route path="/Kasa/*" element={<NotFound />} />
 		</Routes>
 	);
 };

@@ -7,7 +7,7 @@ const Header = () => {
 			<nav>
 				<div>
 					<div>
-						<NavLink to={"/"}>
+						<NavLink to={"/Kasa"}>
 							<img className="kasa-logo" src="./img/logo/logo.svg" alt="logo" />
 						</NavLink>
 					</div>
@@ -15,7 +15,7 @@ const Header = () => {
 				<ul>
 					<li>
 						<NavLink
-							to={"/"}
+							to={"/Kasa"}
 							style={({ isActive }) => ({
 								color: "#FF6060",
 								textDecorationLine: isActive ? "underline" : "none",
@@ -26,7 +26,7 @@ const Header = () => {
 					<li></li>
 					<li>
 						<NavLink
-							to={"/about"}
+							to={"/Kasa/about"}
 							style={({ isActive }) => ({
 								color: "#FF6060",
 								textDecorationLine: isActive ? "underline" : "none",
